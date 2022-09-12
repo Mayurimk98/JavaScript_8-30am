@@ -101,10 +101,10 @@
 //true false => True
 //false false => Flase
 
-console.log(20=='20' || 7!=='7') //true
-console.log(6=='6' || 7<=5) // true
-console.log(200>100 || 20!=20) //true
-console.log('30'!=30 || 60!==60) //false
+// console.log(20 == '20' || 7 !== '7') //true
+// console.log(6 == '6' || 7 <= 5) // true
+// console.log(200 > 100 || 20 != 20) //true
+// console.log('30' != 30 || 60 !== 60) //false
 
 //1. https://nodejs.org/en/download/ =>to download node
 //2. https://code.visualstudio.com/download  =>to download vs code 
@@ -112,4 +112,17 @@ console.log('30'!=30 || 60!==60) //false
 //4. node filename.js
 
 
+//Operators
+//1. Arithmatic => +,-,*,/,%
+//2. Comparison => <,>,<=,>=,==,===,!==
+//3. Logical => &&, ||,!
 
+//Not operator(!) =>boolean (true/false)
+
+//true =>false
+//false =>true
+
+//console.log(!(200 === '200')) //true
+
+console.log(!(600>='700')) //true
+console.log(!(10=='10'))//false
