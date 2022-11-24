@@ -53,26 +53,31 @@ class Professor extends Teacher {
 // mayu.setSalary(2000)
 // console.log(mayu)
 // mayu.displayNameSalary()
+// console.log(mayu.fullName)
+// console.log(mayu.adharNo)
+// console.log(mayu.birthDate)
+// console.log(mayu.salary)
+// mayu.display()
 
 //=============================================================
 
-let mayuri2 = new Professor("Mayuri2", 8989898989, "4-5-1997")
-mayuri2.setSalary(40000)
-mayuri2.setSubject("Math")
-mayuri2.setfamily('kiran')
-console.log(mayuri2)
-mayuri2.info()
-mayuri2.display()
-mayuri2.displayNameSalary()
+// let mayuri2 = new Professor("Mayuri2", 8989898989, "4-5-1997")
+// mayuri2.setSalary(40000)
+// mayuri2.setSubject("Math")
+// mayuri2.setfamily('kiran')
+// console.log(mayuri2)
+// mayuri2.info()
+// mayuri2.display()
+// mayuri2.displayNameSalary()
 
-//Property
-console.log(mayuri2.fullName)
-console.log(mayuri2.salary)
-console.log(mayuri2.subject)
-console.log(mayuri2.country)
-console.log(mayuri2.wife)
-console.log(mayuri2.adharNo)
-console.log(mayuri2.birthDate)
+// //Property
+// console.log(mayuri2.fullName)
+// console.log(mayuri2.salary)
+// console.log(mayuri2.subject)
+// console.log(mayuri2.country)
+// console.log(mayuri2.wife)
+// console.log(mayuri2.adharNo)
+// console.log(mayuri2.birthDate)
 
 
 
