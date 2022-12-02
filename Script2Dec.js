@@ -118,22 +118,22 @@
 // person.info()
 
 //===============================================================
-var firstName="sham"
-var lastName="kulkarni"
-let person = {
-    firstName: "Rahul",
-    lastName: "Rao",
-    info: () => {
-        //this==window
-        console.log(this.firstName + this.lastName) //shamkulkarni
+// var firstName="sham"
+// var lastName="kulkarni"
+// let person = {
+//     firstName: "Rahul",
+//     lastName: "Rao",
+//     info: () => {
+//         //this==window
+//         console.log(this.firstName + this.lastName) //shamkulkarni
 
-        let display = () => {
-            //parent's this scope
-            //this==window
-            console.log(this.firstName + this.lastName)//shamkulkarni
-        }
-        display()
-    }
+//         let display = () => {
+//             //parent's this scope
+//             //this==window
+//             console.log(this.firstName + this.lastName)//shamkulkarni
+//         }
+//         display()
+//     }
 
-}
-person.info()
+// }
+// person.info()
